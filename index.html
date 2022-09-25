@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheBox</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <div class="header__top">
+          <img class="header__logo" src="images/logo.svg" alt="logo">
+          <ul class="header__list">
+            <li class="header__item">
+              <a class="header__link" href="#">Home</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">About Us</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Projects</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Services</a>
+            </li>
+            <li class="header__item">
+              <a class="header__link" href="#">Contact Us</a>
+            </li>
+          </ul>
+          <button class="header__toggle-btn">
+            <span class="header__bar"></span>
+            <span class="header__bar"></span>
+            <span class="header__bar"></span>
+          </button>
+        </div>
+      </div>
+      <div class="header__hero">
+        <div class="container">
+          <div class="header__hero-inner">
+            <h1 class="header__hero-title">Building things is our mission.</h1>
+          </div>
+        </div>
+        <video class="header__video" preload="auto" autoplay muted loop>
+          <source src="images/heder-bg.webm" type="video/webm">
+          <source src="images/heder-bg.mp4" type="video/mp4">
+        </video>
+        <div class="container-wide">
+          <div class="header__feature">
+            <div class="header__feature-wrapper swiper">
+
+              <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="header__slide swiper-slide">
+                  <p class="header__cliser-text">
+                    ”There will always be obstacles and challenges that stand in your way”
+                  </p>
+                </div>
+                <div class="header__slide swiper-slide">
+                  <p class="header__cliser-text">
+                    ”It is not the beauty of a building you should look at; its the construction of the foundation that will stand the test of time”
+                  </p>
+                </div>
+                <div class="header__slide swiper-slide">
+                  <p class="header__cliser-text">
+                    “To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment”
+                  </p>
+                </div>
+              </div>
+
+              <div class="swiper-button-prev"></div>
+              <div class="swiper-button-next"></div> 
+            </div> 
+          </div>
+          </div>
+        </div>
+    </header>
+    <main class="main">
+      <div class="houses">
+        <div class="container">
+          <div class="houses__inner">
+            <div class="houses__top">
+
+              <h2 class="houses__title">Best Real Estate Deals</h2>
+              <button class="houses__all" data-filter="all">View All Property</button>
+
+            </div>
+            <p class="houses__text">
+              Colonel gravity get thought fat smiling add but. Wonder twenty hunted and put income set desire expect.
+            </p>
+            <div class="houses__content">
+              <div class="houses__buttons">
+                <button class="houses__btn" data-filter=".residential">
+                  <p>Residential Property</p>
+                </button>
+                <button class="houses__btn" data-filter=".commercial">
+                  <p>Commercial Property</p>
+                </button>
+                <button class="houses__btn" data-filter=".agriculture">
+                  <p>Agriculture Property</p>
+                </button>
+                <button class="houses__btn" data-filter=".industrial">
+                  <p>Industrial Property</p>
+                </button>
+              </div>
+              <div class="houses__items">
+                <a href="#" class="houses__item mix residential commercial">
+                  <img class="houses__item-img" src="images/houses/house1.jpg" alt="house">
+                </a>
+                <a href="#" class="houses__item mix residential">
+                  <img class="houses__item-img" src="images/houses/house2.jpg" alt="house">
+                </a>
+                <a href="#" class="houses__item mix agriculture commercial">
+                  <img class="houses__item-img" src="images/houses/house3.jpg" alt="house">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="faq">
+        <div class="container">
+          <div class="faq__inner">
+            <h4 class="faq__title">
+              FAQs
+            </h2>
+            <ul class="faq__list">
+              <li class="faq__item accodion__item">
+                <button class="faq__control accodion__control" aria-expanded="false">
+                  <h3 class="faq__item-title">
+                    She met humoured sir breeding her. Six curiosity day assurance bed necessary.
+                  </h3>
+                </button>
+                <div class="faq__content accodion__content" aria-hidden="true">
+                  Relation so in confined smallest children unpacked delicate. Why sir end believe uncivil respect. Always get adieus nature day course for common. My little garret repair to desire he esteem.
+                </div>
+              </li>
+              <li class="faq__item accodion__item">
+                <button class="faq__control accodion__control" aria-expanded="false">
+                  <h3 class="faq__item-title">
+                    And excellence partiality estimating terminated day everything?                  </h3>
+                </button>
+                <div class="faq__content accodion__content" aria-hidden="true">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur vel officiis exercitationem, maiores delectus quasi sunt laudantium eum eaque aspernatur, similique quibusdam repellendus earum ratione ducimus porro ullam repudiandae obcaecati.
+                </div>
+              </li>
+              <li class="faq__item accodion__item">
+                <button class="faq__control accodion__control" aria-expanded="false">
+                  <h3 class="faq__item-title">
+                    Latter person am secure of estate genius at?
+                  </h3>
+                </button>
+                <div class="faq__content accodion__content" aria-hidden="true">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, eligendi quae! Porro placeat, excepturi maiores ducimus praesentium earum voluptatem temporibus reprehenderit voluptate assumenda delectus dolorem sunt ex. Consequuntur inventore est nostrum quidem laborum quod repellendus? Iusto, perferendis! Quidem velit beatae laboriosam minus veniam ut mollitia, aperiam eum, atque ea et.
+                </div>
+              </li>
+              <li class="faq__item accodion__item">
+                <button class="faq__control accodion__control" aria-expanded="false">
+                  <h3 class="faq__item-title">
+                    Whatever landlord yourself at by pleasure of children be?                  </h3>
+                </button>
+                <div class="faq__content accodion__content" aria-hidden="true">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem aperiam voluptate ad quam fuga ea.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="form">
+        <div class="form__box">
+          <div class="form__top">
+            <img class="form__logo" src="images/logo.svg" alt="">
+            <p class="form__account">Need account? <a class="form__login" href="#">Log In</a></p>
+          </div>
+          <div class="form__content">
+            <h2 class="form__title">Manage your Income and Expenses wit us!</h2>
+            <p class="form__text">
+              Takes only 10 minutes to fill out all the information needed to register your business.
+            </p>
+          </div>
+          <form class="form__form" action="#">
+            <div class="form__input-box">
+              <div class="form__input-wrapper">
+                <input class="form__input" type="email" placeholder=" ">
+                <label class="form__label">Email</label>
+                <span class="form__line"></span>
+              </div>
+              <div class="form__input-wrapper">
+                <input class="form__input" type="text" placeholder=" ">
+                <label class="form__label">Full name</label>
+                <span class="form__line"></span>
+              </div>
+              <div class="form__input-wrapper">
+                <input class="form__input" type="text" placeholder=" ">
+                <label class="form__label">Password</label>
+                <span class="form__line"></span>
+              </div>
+            </div>
+            <div class="form__button">
+              <input type="submit" value="Register Account">
+            </div>
+          </form>
+          <p class="form__terms">By sign up youre agreeing to our <a href="#">Terms and Condition</a></p>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__inner">
+          <div class="footer__content">
+            <h3 class="footer__logo">
+              TheBox
+            </h3>
+            <p class="footer__text">
+              We offer comfortable spaces, cozy cafe, high-speed internet, spacious parking area and many more for your best
+              workspaces and meetings
+            </p>
+            <ul class="footer__social">
+              <li class="footer__social-item">
+                <a href="#">
+                  <img src="images/social/Instagram.svg" alt="Instagram">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#">
+                  <img src="images/social/youtube.svg" alt="youtube">
+                </a>
+              </li>
+              <li class="footer__social-item">
+                <a href="#">
+                  <img src="images/social/facebook.svg" alt="facebook">
+                </a>
+              </li>
+            </ul>
+          </div>
+          <ul class="footer__columns">
+            <li class="footer__column accodion__item">
+              <button class="footer__control accodion__control">
+                <p>Spaces</p>
+              </button>
+              <div class="footer__content-items accodion__content">
+                <a class="footer__link" href="#">Co-working spaces</a>
+                <a class="footer__link" href="#">Meeting rooms</a>
+                <a class="footer__link" href="#">Event spaces</a>
+                <a class="footer__link" href="#">Child playground</a>
+                <a class="footer__link" href="#">Cafe & resto</a>
+              </div>
+            </li>
+            <li class="footer__column accodion__item">
+              <button class="footer__control accodion__control">
+                <p>Company</p>
+              </button>
+              <div class="footer__content-items accodion__content">
+                <a class="footer__link" href="#">About Us</a>
+                <a class="footer__link" href="#">Pricing</a>
+                <a class="footer__link" href="#">Careers</a>
+                <a class="footer__link" href="#">Press</a>
+              </div>
+            </li>
+            <li class="footer__column accodion__item">
+              <button class="footer__control accodion__control">
+                <p>Support</p>
+              </button>
+              <div class="footer__content-items accodion__content">
+                <a class="footer__link" href="#">FAQs</a>
+                <a class="footer__link" href="#">Privacy Policy</a>
+                <a class="footer__link" href="#">Help</a>
+              </div>
+            </li>
+            <li class="footer__column accodion__item">
+              <button class="footer__control accodion__control">
+                <p>Contact Us</p>
+              </button>
+              <div class="footer__content-items accodion__content">
+                <a class="footer__link" href="#">E. Hello@frispes.com</a>
+                <a class="footer__link" href="#">A. Jalan Jayakatwang No.301
+                Ngasem, Kediri</a>
+                <a class="footer__link" href="#">P. (+62) 82334670000</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </div>
+    
+    <script src='js/main.min.js'></script>
+</body>
+</html>
